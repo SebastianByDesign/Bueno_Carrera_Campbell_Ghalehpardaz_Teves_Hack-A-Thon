@@ -4,3 +4,4 @@ node_modules
 *.ai
 *.eps
 gulpfile.js
+.sass-cache
