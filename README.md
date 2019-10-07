@@ -34,10 +34,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Guilherme Da Silva** - *Back end Developer* - [GuilhermeBueno6](https://github.com/guilhermebueno6)
+* **Guilherme Da Silva** - *Back end Developer* - [guilhermebueno6](https://github.com/guilhermebueno6)
 * **Johnathan Teves** - *Project Manager* - [jtev23](https://github.com/jtev23)
-* **Derrik Campbell** - *Product Designer* - [GuilhermeBueno6](https://github.com/guilhermebueno6)
-* **Gino Ghalehpardaz** - *Designer* - [GuilhermeBueno6](https://github.com/guilhermebueno6)
+* **Derrik Campbell** - *Product Designer* - [DerrikC](https://github.com/DerrikC)
+* **Gino Ghalehpardaz** - *UI/UX Designer* - [ginoghal](https://github.com/ginoghal)
 * **Walter Carrera** - *Front end Developer* - [sebastiandesign](https://github.com/sebastiandesign)
 
 
