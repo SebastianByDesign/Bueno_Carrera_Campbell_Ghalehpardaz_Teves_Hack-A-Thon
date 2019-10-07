@@ -4,57 +4,19 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Download the file and run the index.html on a http server. See Deployment and Installing for more details.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+***Terminal:**
+          cd Desktop (If on a Max use /Desktop instead)
+          git clone https://github.com/sebastiandesign/Bueno_Carrera_Campbell_Ghalehpardaz_Teves_Hack-A-Thon.git
+          
+ ***Terminal:**
+          Click on the Download button on the github repository and unzip it on your directory of choice.
 
 ## Deployment
-
-Add additional notes about how to deploy this on a live system
+You can use Visual Studio Code to launch the Files on a Web server or use your terminal as a local simple HTTP server.
 
 ## Built With
 
@@ -72,9 +34,13 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Guilherme Da Silva** - *Back end Developer* - [GuilhermeBueno6](https://github.com/guilhermebueno6)
+* **Johnathan Teves** - *Project Manager* - [GuilhermeBueno6](https://github.com/guilhermebueno6)
+* **Derrik Campbell** - *Product Designer* - [GuilhermeBueno6](https://github.com/guilhermebueno6)
+* **Gino Ghalehpardaz** - *Designer* - [GuilhermeBueno6](https://github.com/guilhermebueno6)
+* **Walter Carrera** - *Front end Developer* - [GuilhermeBueno6](https://github.com/guilhermebueno6)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 
 ## License
 
@@ -82,6 +48,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+
