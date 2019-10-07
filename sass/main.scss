@@ -2,6 +2,7 @@
 @import "_vars";
 @import "layout/navbar";
 @import "components/sidebar";
+@import "pages/hero";
 
 .hidden {
     display: none;
@@ -42,6 +43,6 @@ a {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
 }
