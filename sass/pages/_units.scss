@@ -1,0 +1,41 @@
+.units {
+
+    .units-grid {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: calc( 300px + (700 - 300) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+
+        .box {
+            position: relative;
+            width: calc( 150px + (300 - 150) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+
+            img {
+                max-width: 100%;
+            }
+
+            div {
+                    left:50%;
+                    top:50%;
+                    transform: translate(-50%, -60%);
+                    position: relative;
+                    background-color:grey;
+                    width: 5vw;
+                    height: 5vw;
+
+                object {
+                    width: 5vw;
+                    height: 5vw;
+                }
+
+            }
+
+            p { 
+                margin-top: -40px;
+                padding: 15px;
+            }
+        }
+    }
+}
