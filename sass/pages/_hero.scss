@@ -1,0 +1,25 @@
+.hero {
+    background: url("../images/heroimage.jpeg") no-repeat bottom center fixed;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+
+    div {
+        box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.7);
+        height: calc( 125px + (200 - 125) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+        padding-right: 50px;
+        
+        h1{
+            color: black;
+            margin-left: 5vw;
+            margin-bottom: -28px;
+            font-size: calc( 32px + (46 - 32) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+        }
+        p {
+            color: black;
+            margin-left: 5vw;
+            font-size: calc( 14px + (20 - 14) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+        }
+    }
+}
