@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9.7 4.82" style="enable-background:new 0 0 9.7 4.82;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#3D5AA7;}
+	.st2{display:none;}
+	.st3{display:inline;fill:#E92627;}
+</style>
+<g id="Arrows">
+	<polygon class="st0" points="4.83,1.28 2.4,3.69 1.31,4.78 2.14,4.78 2.42,4.49 4.85,2.09 7.27,4.49 7.56,4.78 8.34,4.78 
+		7.25,3.69 	"/>
+	<polygon class="st0" points="3.41,4.78 6.24,4.78 4.83,3.37 	"/>
+	<polygon id="BigArrwow" class="st1" points="2.4,3.69 4.83,1.28 7.25,3.69 8.34,4.78 9.66,4.78 7.27,2.41 4.85,0 2.42,2.41 
+		0.04,4.78 1.31,4.78 	"/>
+	<polygon id="Litle_Arrow" class="st1" points="4.85,2.09 2.42,4.49 2.14,4.78 3.41,4.78 4.83,3.37 6.24,4.78 7.56,4.78 7.27,4.49 	
+		"/>
+	<polygon class="st1" points="8.38,4.82 9.7,4.82 9.66,4.78 8.34,4.78 	"/>
+	<polygon class="st1" points="1.27,4.82 1.31,4.78 0.04,4.78 0,4.82 	"/>
+</g>
+<g id="Shield" class="st2">
+	<path class="st3" d="M0,0.03l7.75,51.71c0.71,4.75,3.29,9.02,7.17,11.86l29.84,21.88c0.01,0.01,0.02,0.01,0.03,0l29.84-21.88
+		c3.88-2.84,6.46-7.11,7.17-11.86l7.75-51.71c0-0.02-0.01-0.03-0.03-0.03H0.03C0.01,0,0,0.01,0,0.03z M64.39,57.11L44.66,71.58
+		L24.92,57.11c-3.87-2.84-6.45-7.1-7.16-11.85l-5.26-35.06H76.8l-5.26,35.06C70.84,50.01,68.26,54.28,64.39,57.11z"/>
+</g>
+</svg>

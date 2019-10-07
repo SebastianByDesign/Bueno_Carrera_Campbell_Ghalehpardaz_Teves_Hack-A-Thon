@@ -8,6 +8,9 @@ function loggin(){
     var newX = x/16
     var roundedX = Math.floor(newX)
     console.log(roundedX)
+    if (roundedX>90){
+        return
+    }
 
 
 
