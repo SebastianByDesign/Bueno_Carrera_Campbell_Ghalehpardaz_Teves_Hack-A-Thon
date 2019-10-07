@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+*.psd
+*.ai
+*.eps
+gulpfiles.js
+*.json
