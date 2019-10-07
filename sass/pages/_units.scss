@@ -1,29 +1,36 @@
 .units {
+    margin-top: 0;
 
     .units-grid {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
         width: 100vw;
-        height: calc( 300px + (700 - 300) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+        
 
         .box {
             position: relative;
             width: calc( 150px + (300 - 150) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+            height: 500px;
+            background-color: $gray;
+            padding: 15px 15px 0 15px;
+            border-radius: 10px 10px 0 0;
 
             img {
-                max-width: 100%;
+                width: 100%;
+                border-radius: 10px 10px 0 0;
             }
 
             div {
                     left:50%;
-                    top:50%;
+                    top:0;
                     transform: translate(-50%, -60%);
                     position: relative;
                     background-color:grey;
-                    width: 5vw;
-                    height: 5vw;
+                    width: 55px;
+                    height: 55px;
 
                 object {
                     width: 5vw;
@@ -34,8 +41,36 @@
 
             p { 
                 margin-top: -40px;
-                padding: 15px;
+                padding: 15px 0;
             }
+        }
+    }
+}
+
+//Media Queries
+@media screen and (max-width: 800px) {
+    .units {
+        margin-top: 50px;
+
+        .units-grid {
+            flex-direction: column;
+            .box {
+                width: calc( 250px + (300 - 250) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+                margin-bottom: 15px;
+                img {
+
+                }
+                div {
+                    
+                    object {
+
+                    }
+                }
+                p {
+
+                }
+            }
+
         }
     }
 }
