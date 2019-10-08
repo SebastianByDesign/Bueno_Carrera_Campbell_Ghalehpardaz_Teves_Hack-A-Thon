@@ -25,12 +25,18 @@
             }
         }
         .image-box {
-            background-image: url("https://via.placeholder.com/800x900");
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
+            position: relative;
             height: 80vh;
             width: 50%;
+            align-self: baseline;
+
+            img {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 42vw;
+                
+            }
         }
     }
 }
