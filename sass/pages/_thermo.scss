@@ -1,0 +1,70 @@
+.thermo {
+    background-color: $blue;
+    
+    .thermo-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100vw;
+        align-items: center;
+
+        .text-box {
+            width: 50%;
+
+            h1 {
+                padding: 0 10%;
+                margin: 0;
+                color: white;
+                line-height: 1.5;
+            }
+
+            p {
+                margin: 0;
+                padding: 0 10%;
+                color: white;
+            }
+        }
+        .image-box {
+            background-image: url("https://via.placeholder.com/800x900");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            height: 80vh;
+            width: 50%;
+        }
+    }
+}
+
+//Media Queries
+@media screen and (max-width: 800px) {
+    .thermo {
+        margin-top: 50px;
+    
+        .thermo-grid {
+
+            .text-box {
+                width: 90%;
+                height: inherit;
+                margin: 0% 5%;
+                
+
+                h1 {
+                    padding: 10px 0 0 0;
+                    margin: 10px 0 0 0;
+                    text-align: center;
+                }
+
+                p {
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+            .image-box {
+                width: 90%;
+                height: 70vh;
+                margin: 5% 5%;
+                background-position: center center;
+            }
+        }
+    }
+}

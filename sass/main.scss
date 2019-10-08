@@ -4,6 +4,8 @@
 @import "components/sidebar";
 @import "pages/hero";
 @import "pages/units";
+@import "pages/thermo";
+@import "pages/secure";
 
 .hidden {
     display: none;
@@ -13,6 +15,7 @@ body {
     cursor: url('../images/ThermoSecurity_CustomCursor.png'), auto;
     margin: 0;
     padding: 0;
+    
 }
 
 h1, h2, h3 {
