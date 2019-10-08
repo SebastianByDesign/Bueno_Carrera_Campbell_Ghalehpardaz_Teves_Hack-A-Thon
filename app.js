@@ -41,7 +41,7 @@ app.get('/users', (req, res)=>{
       return console.log(err.message);
     }
 
-    let query = "SELECT * FROM tbl_card";
+    let query = "SELECT * FROM tbl_users";
 
     sql.query(query, (err, rows)=>{
       //w're done with our DB connection, so let someone else use it 
