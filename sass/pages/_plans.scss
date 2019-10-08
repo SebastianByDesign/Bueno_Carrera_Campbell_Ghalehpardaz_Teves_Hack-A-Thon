@@ -49,3 +49,19 @@
         }
     }
 }
+
+//Media Queries
+@media screen and (max-width: 800px) {
+    .plans {
+        margin-top: 50px;
+
+        .plans-grid {
+            flex-direction: column;
+            
+            .box {
+                width: calc( 250px + (300 - 250) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

@@ -54,21 +54,10 @@
 
         .units-grid {
             flex-direction: column;
+            
             .box {
                 width: calc( 250px + (300 - 250) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
                 margin-bottom: 15px;
-                img {
-
-                }
-                div {
-                    
-                    object {
-
-                    }
-                }
-                p {
-
-                }
             }
 
         }
