@@ -1,0 +1,51 @@
+.plans {
+    margin-top: 0;
+
+    .plans-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+
+        .box {
+            width: calc( 150px + (300 - 150) * ((100vw - #{$min-width}px) / (#{$max-width} - #{$min-width})));
+            height: 500px;
+            background-color: $gray;
+            padding: 15px 15px 0 15px;
+            border-radius: 10px 10px 0 0;
+
+            .icon {
+                display: flex;
+                width: 100%;
+                border-radius: 10px 10px 0 0;
+                justify-content: center;
+
+                object {
+                    width: 50%;
+                    
+                }
+            }
+
+            h2 {
+                text-align: center;
+                margin: 0;
+            }
+
+            ul {
+                margin: 0;
+                
+                li {
+                    padding: 0;
+                    padding-right: 20px;
+
+                    p {
+                        padding: 0
+                    }
+                }
+
+            }
+        }
+    }
+}
