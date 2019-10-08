@@ -1,3 +1,4 @@
+![ThermoSecurity Logo](images/ThermoSecurity+Text.svg)
 # ThermoSecurity by HouseCom
 
 ThermoSecurity is a device designed to be the ultimate tool on your house appliances integration for security and ambience. Have your setting for cameras, lights, temperature and humidity of your house at your fingertips.
