@@ -8,11 +8,12 @@ function loggin(){
     var x = event.clientX
     console.log(x)
     var newX = x/16
-    var roundedX = Math.floor(newX)
-    console.log(roundedX)
-    if (roundedX>90){
-        return
-    }
+    var roundedX = Math.min(90,Math.floor(newX))
+    console.log(roundedX);
+    
+    // if (roundedX>90){
+    //     return
+    // }
 
     numbers.src = `http://127.0.0.1:5500/public/images/MainComp/MainComp_000${roundedX}.png`;
 
